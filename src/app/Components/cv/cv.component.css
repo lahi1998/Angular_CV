@@ -1,0 +1,37 @@
+.column {
+    float: left;
+}
+
+.left {
+    width: 20%;
+    height: 120vh;      
+}
+
+.middle{
+    width: 60%;
+    height: auto;
+}
+
+.right {
+    width: 20%;
+    height: 120vh;    
+}
+
+.IMG_CV{
+margin-top: 2vh;
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: auto;
+width: 80%;
+}
+
+.link{
+    color: rgb(4, 181, 239);
+}
+
+.Download-link{
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 1.2vw;
+}

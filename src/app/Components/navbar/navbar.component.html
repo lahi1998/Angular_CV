@@ -1,6 +1,29 @@
-<p>navbar works!</p>
+<!DOCTYPE html>
+<html lang="en">
 
-<ul>
-    <li></li>
-    <li></li>
-</ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.component.css">
+</head>
+
+<body>
+
+    <ul>
+        <li>
+            <button routerLink="/Components/Cv" class="btn CvButton">
+                <img src="assets/logo/home.png">
+                <span class="btn-text">Cv</span>
+            </button>
+        </li>
+        <li>
+            <button routerLink="/Components/Projects" class="btn ProjectButton">
+                <img src="assets/logo/IT-logo.png">
+                <span class="btn-text">projects</span>
+            </button>
+        </li>
+    </ul>
+
+</body>
+
+</html>

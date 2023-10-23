@@ -5,7 +5,16 @@ import { ProjectsComponent } from './Components/projects/projects.component';
 
 const routes: Routes = [
   { path: 'cv', component: CvComponent },
-  { path: 'project', component: ProjectsComponent },
+  {
+    path: 'Components',
+    children: [
+      { path: 'Projects', component: ProjectsComponent },
+      { path: 'Cv', component: CvComponent },
+    ],
+  },
+  // Add a default route (can be an empty component)
+  { path: 'default', component: CvComponent },
+  { path: '**', redirectTo: 'default' }, // Handle any other invalid routes by redirecting to 'default'
 ];
 
 @NgModule({
