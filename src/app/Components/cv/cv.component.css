@@ -2,39 +2,17 @@
     float: left;
 }
 
-.left {
-    width: 20%;
-    height: 120vh;
-    background-color: #668c3e;
-}
-
-.middle{
+.middle {
     width: 60%;
     height: auto;
     background-color: #668c3e;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.right {
-    width: 20%;
-    height: 120vh;
-    background-color: #668c3e;   
-}
-
-.IMG_CV{
-margin-top: 2vh;
-display: block;
-margin-left: auto;
-margin-right: auto;
-height: auto;
-width: 80%;
-}
-
-.link{
-    color: rgb(4, 181, 239);
-}
-
-.Download-link{
-    margin-top: 2vh;
-    text-align: center;
-    font-size: 1.2vw;
+#CVPDF {
+    width: 100%;
+    height: 975px;
 }

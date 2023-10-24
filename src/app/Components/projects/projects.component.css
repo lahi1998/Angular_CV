@@ -1,17 +1,16 @@
 .column {
     float: left;
+    background-color: #668c3e;
 }
 
 .left {
     width: 50%;
-    height: 120vh;
-    background-color: #668c3e;
+    height: 150vh;
 }
 
 .right {
     width: 50%;
-    height: 120vh;
-    background-color: #668c3e;
+    height: 150vh;
 }
 
 h1 {
@@ -25,15 +24,17 @@ h3 {
 }
 
 p {
-    margin-left: 1vw;
-    margin-right: 1vw;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
     color: white;
 }
 
-a{
+.link{
     color: lightblue;
     font-weight: bold;
-    margin-left: 1vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .ExcelArkIMG {
@@ -43,6 +44,12 @@ a{
 }
 
 .SimpeltRunnerIMG{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.JS-icon{
     width: 70%;
     height: auto;
     margin-left: 15%;
