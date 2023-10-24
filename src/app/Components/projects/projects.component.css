@@ -4,12 +4,46 @@
 
 .left {
     width: 50%;
-    height: 120vh;     
-    background-color: lightblue; 
+    height: 120vh;
+    background-color: #668c3e;
 }
 
 .right {
     width: 50%;
-    height: 120vh;    
-    background-color: lightgreen;
+    height: 120vh;
+    background-color: #668c3e;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: white;
+}
+
+a{
+    color: lightblue;
+    font-weight: bold;
+    margin-left: 1vw;
+}
+
+.ExcelArkIMG {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.SimpeltRunnerIMG{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
 }

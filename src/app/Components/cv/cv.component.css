@@ -4,17 +4,20 @@
 
 .left {
     width: 20%;
-    height: 120vh;      
+    height: 120vh;
+    background-color: #668c3e;
 }
 
 .middle{
     width: 60%;
     height: auto;
+    background-color: #668c3e;
 }
 
 .right {
     width: 20%;
-    height: 120vh;    
+    height: 120vh;
+    background-color: #668c3e;   
 }
 
 .IMG_CV{

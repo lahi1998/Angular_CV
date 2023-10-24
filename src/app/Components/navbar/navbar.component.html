@@ -9,20 +9,28 @@
 
 <body>
 
-    <ul>
-        <li>
-            <button routerLink="/Components/Cv" class="btn CvButton">
-                <img src="assets/logo/home.png">
-                <span class="btn-text">Cv</span>
-            </button>
-        </li>
-        <li>
-            <button routerLink="/Components/Projects" class="btn ProjectButton">
-                <img src="assets/logo/IT-logo.png">
-                <span class="btn-text">projects</span>
-            </button>
-        </li>
-    </ul>
+    <div class="row-container">
+        <div class="left-content">
+            <img style="height: 90px; margin-left: 2vw; border-radius: 20px;" src="assets/logo/lars_hinge.jpg" alt="Billed af mig">
+            <h3 class="navn">Lars sadolin hinge</h3>
+        </div>
+
+        <ul class="button-list">
+            <li>
+                <button routerLink="/Components/Cv" class="btn CvButton">
+                    <img src="assets/logo/home.png">
+                    <span class="btn-text">Cv</span>
+                </button>
+            </li>
+            <li>
+                <button routerLink="/Components/Projects" class="btn ProjectButton">
+                    <img src="assets/logo/IT-logo.png">
+                    <span class="btn-text">Projekter</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+    
 
 </body>
 
