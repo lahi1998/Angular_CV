@@ -1,0 +1,15 @@
+.column {
+    float: left;
+}
+
+.left {
+    width: 50%;
+    height: 120vh;     
+    background-color: lightblue; 
+}
+
+.right {
+    width: 50%;
+    height: 120vh;    
+    background-color: lightgreen;
+}

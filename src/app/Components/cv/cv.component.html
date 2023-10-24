@@ -11,16 +11,18 @@
 <body>
 
     <!-- Left side CV-->
-    <div class="column left">
-        <a class="link" href="assets/cv/Lars_cv.pdf">
-            <p class="Download-link">Download CV</p>
-        </a>
-    </div>
+    <div class="column left"></div>
+
+    <style>
+        #CVPDF {
+            width: 100%;
+            height: 975px;
+        }
+    </style>
 
     <!-- Middle side CV-->
     <div class="column middle">
-        <img class="IMG_CV" src="assets/cv/CV_billed.png" alt="Billed af CV">
-        <img class="IMG_CV" src="assets/cv/CV_billed2.png" alt="Billed af CV">
+        <iframe id="CVPDF" src="assets/cv/Lars_cv.pdf" frameborder="0"></iframe>
 
     </div>
 
