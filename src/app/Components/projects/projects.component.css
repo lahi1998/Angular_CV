@@ -1,16 +1,19 @@
+.container {
+    display: flex;
+}
+
 .column {
+    flex: 1;
     float: left;
     background-color: #005B41;
 }
 
 .left {
     width: 50%;
-    height: 150vh;
 }
 
 .right {
     width: 50%;
-    height: 150vh;
 }
 
 h1 {
@@ -21,6 +24,7 @@ h1 {
 h3 {
     text-align: center;
     color: white;
+    margin-top: 5vh;
 }
 
 p {
@@ -30,12 +34,39 @@ p {
     color: white;
 }
 
-.link{
+ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+li{
+    margin-left: 5vw;
+}
+
+.link {
     color: lightblue;
     font-weight: bold;
     margin-left: 5vw;
     margin-right: 5vw;
 }
+
+/* image carousel css */
+
+.carousel-container {
+    width: 100%;
+    height: auto;
+}
+
+
+.imgcarousel {
+    max-width: 90%;
+    max-height: 300px;
+    margin-left: 5%;
+}
+
+
+/* images adjustments */
 
 .ExcelArkIMG {
     width: 70%;
@@ -43,13 +74,19 @@ p {
     margin-left: 15%;
 }
 
-.SimpeltRunnerIMG{
+.SimpeltRunnerIMG {
     width: 70%;
     height: auto;
     margin-left: 15%;
 }
 
-.JS-icon{
+.JS-icon {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.snakeJSIMG {
     width: 70%;
     height: auto;
     margin-left: 15%;

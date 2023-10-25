@@ -10,7 +10,7 @@
 
 <body>
 
-    <div class="wrapper">
+    <div class="container">
         <div class="column left">
             <h1>Professionelle projekter</h1>
 
@@ -21,8 +21,23 @@
             <p>Den går fra September til og med August, så den dækker ferie året. og har en samlet for hele-året med
                 tæller for samlet ferie brugt.</p>
             <p>Download virker, bare ingen forvisning pga google drev.</p>
-            <a class="link" href="https://drive.google.com/file/d/1E7YyM4ZZZbRk8cmTzmy517YX0OiMhuom/view">Excel Kalender</a>
+            <a class="link" href="https://drive.google.com/file/d/1E7YyM4ZZZbRk8cmTzmy517YX0OiMhuom/view">Excel
+                Kalender</a>
 
+            <h3>Udlåns-side</h3>
+            <div id="carouselExampleControls" class="carousel-container " data-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+                    <img class="imgcarousel" st src="{{ getSlide() }}" alt="slide">
+                </div>
+
+                <ul>
+                    <li><button (click)='getPrev()'>Prev</button></li>
+                    <li><button (click)='getNext()'>Next</button></li>
+                </ul>
+
+                <p>Lavet i php ville ligge dokumentation, men har ikke en censureret version, så kan ikke.</p>
+            </div>
         </div>
 
         <div class="column right">
@@ -39,10 +54,16 @@
             <a class="link" href="https://github.com/lahi1998/Simpelt_runner_WPF">Github</a>
 
             <h3>JavaScript side</h3>
-            <a href="https://lahi1998.github.io/JavaScript/"><img class="JS-icon" src="assets/projects/JS-icon.png" alt="JavaScript icon"></a>
+            <a href="https://lahi1998.github.io/JavaScript/"><img class="JS-icon" src="assets/projects/JS-icon.png"
+                    alt="JavaScript icon"></a>
             <p>Sat en hjemmeside op med lidt JavaScript. Tryk på billed for at gå
                 til siden.</p>
             <p>Alt text og kode er dog på engelsk.</p>
+
+            <h3>SnakeGame JS Browser</h3>
+            <a href="https://lahi1998.github.io/SnakeGame_Javascript/"><img class="snakeJSIMG"
+                    src="assets/projects/SnakeJS.PNG" alt="snake game img with link to game"></a>
+            <p>ikke optimieret tager lidt tid og load backgrund, tryk på billed for at spille.</p>
         </div>
     </div>
 
